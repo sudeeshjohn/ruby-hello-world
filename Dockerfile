@@ -1,4 +1,4 @@
-FROM centos/ruby-22-centos7
+FROM ppc64le/ruby
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
